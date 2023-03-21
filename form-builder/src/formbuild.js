@@ -22,6 +22,7 @@ function Formbuild() {
               question={item.question}
               keyCreator={keyCreator}
               extraField={item.extraField}
+              isSubQuestion={item.isSubQuestion}
             />
           </div>
         </>
